@@ -224,6 +224,24 @@ namespace cs2100 {
 
 
 
+
+	void remove(const Object& x) 
+        {
+              iterator temp(head);
+              while(temp!=end())
+              {
+                  iterator temp2=temp+1;
+                  if(*(temp)==x)                  
+                    erase(temp);
+                  temp=temp2;
+              }
+        };
+
+
+
+
+
+
         inline friend std::ostream& operator<< (std::ostream& os, const LinkedList & l)
         {
             iterator temp=l.begin();
