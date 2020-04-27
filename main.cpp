@@ -33,7 +33,12 @@ int main(){
     l.reverse();
     cout<<l<<endl;
 
+	
 
+	
+    cout<<"\nSort O(n^2):"<<"\n\n";
+    l.sort();
+    cout<<l<<endl;	
 
 	
 }
