@@ -22,7 +22,18 @@ int main(){
 
     l.insert(l.begin()+5,69);
 
-    cout<<"Insert number 69 in sixth position: "<<l<<"\n\n\n\n\n\n";
+    cout<<"Insert number 69 in sixth position: "<<l<<"\n\n\n";
+
+
+
+    cout<<"\nOriginal Container :"<<"\n\n";
+    cout<<l<<endl;
+
+    cout<<"\nReverse O(n):"<<"\n\n";
+    l.reverse();
+    cout<<l<<endl;
+
+
 
 	
 }
